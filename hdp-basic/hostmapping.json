@@ -1,0 +1,10 @@
+{
+	"blueprint":"hdp-basic",
+	"default_password": "admin",
+	"host_groups":[
+		{
+			"name":"node_1",
+      		"hosts":[ { "fqdn":"n1.hdp" } ] 
+		}
+	]
+}
